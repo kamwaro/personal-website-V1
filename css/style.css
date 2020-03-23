@@ -2,16 +2,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Baloo Da 2', cursive;
 }
 
 .nav {
   font-size: 1.2rem;
   background-image: url(/images/brown-and-green-grass-field-during-sunset-1237119.jpg);
   background-repeat: no-repeat;
-  background-position: center;
-  background-blend-mode: multiply;
-  background-color: rgb(30, 30, 172);
+  background-position: cover;
   height: 100vh;
+  width: 100vw;
 }
 
 .mobile-nav-container {
@@ -54,12 +54,33 @@
 }
 
 .landing-page {
-  height: 100vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 4rem;
+}
+.landing-page i {
+  margin-top: 18rem;
+  font-size: 4rem;
 }
 
 @media (max-width: 700px) {
   .desktop-nav-container {
     display: none;
+  }
+
+  .nav {
+    background-position: center;
+  }
+
+  .landing-page {
+    margin-top: 10rem;
+  }
+
+  .landing-page i {
+    margin-top: 10rem;
   }
 }
 
