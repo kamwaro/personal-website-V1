@@ -22,6 +22,7 @@
 
 .mobile-nav-container > li {
   margin: 0.8rem;
+  transition: color 650ms;
 }
 
 .mobile-nav-container > li:hover {
@@ -54,6 +55,7 @@
   color: #fff;
   text-decoration: none;
   position: relative;
+  transition: color 650ms;
 }
 
 .desktop-nav-container span > a::before {
@@ -66,7 +68,7 @@
 }
 
 .desktop-nav-container span > a:hover {
-  color: rgb(77, 77, 77);
+  color: rgb(135, 192, 89);
 }
 
 .desktop-nav-container span > a:hover a::before {
@@ -80,6 +82,7 @@
   justify-content: space-around;
   align-items: center;
   margin-top: 4rem;
+  font-size: 1.8rem;
 }
 .landing-page i {
   margin-top: 18rem;
