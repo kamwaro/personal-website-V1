@@ -71,7 +71,7 @@
   color: rgb(135, 192, 89);
 }
 
-.desktop-nav-container span > a:hover a::before {
+.desktop-nav-container span > a:hover {
   width: 100%;
 }
 
